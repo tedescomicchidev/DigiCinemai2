@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Assignment",
+  "type": "object",
+  "required": [
+    "storyId",
+    "desk",
+    "assignee",
+    "due",
+    "requiredAssets"
+  ],
+  "properties": {
+    "storyId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "desk": {
+      "type": "string"
+    },
+    "assignee": {
+      "type": "string"
+    },
+    "due": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "requiredAssets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

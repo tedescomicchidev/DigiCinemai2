@@ -1,0 +1,54 @@
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and temp
+*.log
+*.cache
+*.tmp
+*.lock.json
+
+# Coverage and test
+TestResults/
+*.coverage*
+*.trx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure tooling
+.localhistory/
+
+# Node / npm artifacts (for future front-end work)
+node_modules/
+wwwroot/lib/
+
+# Resharper / dotCover
+_ReSharper*/
+
+# Packages
+*.nupkg
+*.snupkg
+*.tar.gz
+*.zip
+
+# Terraform/Bicep state (if generated locally)
+.terraform/
+*.tfstate*
+
+# Rider/JetBrains
+.idea/
+*.ipr
+*.iws
+
