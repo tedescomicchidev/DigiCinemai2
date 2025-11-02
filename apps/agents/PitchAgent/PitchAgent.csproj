@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PitchAgent-33bd23d7-d2df-4d64-b063-58ec9cc1dd22</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\Newsroom.Contracts\Newsroom.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\libs\Newsroom.Agents\Newsroom.Agents.csproj" />
+    <ProjectReference Include="..\..\..\libs\Newsroom.Cms\Newsroom.Cms.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-MonetizationAgent-3ef7d34e-90d9-478e-ad60-63fc4b21b5e0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\Newsroom.Contracts\Newsroom.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\libs\Newsroom.Agents\Newsroom.Agents.csproj" />
+    <ProjectReference Include="..\..\..\libs\Newsroom.Cms\Newsroom.Cms.csproj" />
+  </ItemGroup>
+</Project>

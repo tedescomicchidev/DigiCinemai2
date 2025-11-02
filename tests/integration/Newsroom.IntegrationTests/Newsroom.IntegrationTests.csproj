@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\Newsroom.Contracts\Newsroom.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\libs\Newsroom.Agents\Newsroom.Agents.csproj" />
+    <ProjectReference Include="..\..\..\libs\Newsroom.Cms\Newsroom.Cms.csproj" />
+  </ItemGroup>
+
+</Project>
